@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev's 3D-Card</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="profile-card" id="profileCard">
+        <div class="card-inner">
+            <div class="card-front">
+                <img src="https://img.freepik.com/free-photo/view-3d-man-holding-laptop_23-2150709818.jpg"
+                    alt="Dev's Avatar">
+                <div class="content2">
+                    <h1>Devdas</h1>
+                    <p>Cybersecurity Researcher</p>
+                </div>
+            </div>
+            <div class="card-back">
+                <div class="content">
+                    <h2>Dev</h2>
+                    <h3>Cybersecurity Student</h3>
+                    <p>Welcome to my futuristic world of cybersecurity. Let's secure the future together!</p>
+
+                    <p>Skills:</p>
+                    <ul>
+                        <li>Cybersecurity</li>
+                        <li>Programming</li>
+                        <li>Web Development</li>
+                    </ul>
+
+                    <p>Education:</p>
+                    <p>Bachelor of Computer Applications (BCA) - Amity University</p>
+
+                    <ul class="social-icons">
+                        <li class="item">
+                            <a href="#">
+                                <i class="fa-brands fa-instagram icon"></i>
+                            </a>
+                        </li>
+                        <li class="item">
+                            <a href="#">
+                                <i class="fa-brands fa-linkedin icon"></i>
+                            </a>
+                        </li>
+                        <li class="item">
+                            <a href="#">
+                                <i class="fa-brands fa-github icon"></i>
+                            </a>
+                        </li>
+                        <li class="item">
+                            <a href="#">
+                                <i class="fa-brands fa-x-twitter icon"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const profileCard = document.getElementById('profileCard');
+
+        profileCard.addEventListener('mouseover', () => {
+            profileCard.classList.add('flip');
+        });
+
+        profileCard.addEventListener('mouseout', () => {
+            profileCard.classList.remove('flip');
+        });
+    </script>
+</body>
+
+</html>
