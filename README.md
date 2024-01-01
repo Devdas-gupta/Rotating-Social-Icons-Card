@@ -4,6 +4,10 @@
 
 This is a simple and interactive profile card template featuring a 360° rotating effect on social media icons. It's designed to showcase a brief introduction and connect users with your social media profiles.
 
+## Preview
+
+You can preview my Card [here](https://devdas-gupta.github.io/Rotating-Social-Icons-Card/Dev-card.html)
+
 
 ## Features
 
