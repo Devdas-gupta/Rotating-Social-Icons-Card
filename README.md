@@ -33,7 +33,7 @@ Feel free to customize the content, colors, and social media links in the `index
 ## Social Media Links
 
 - [Instagram](https://www.instagram.com/Devdas_kr)
-- [LinkedIn](https://www.linkedin.com/in/devdas-kumar-889055234/)
+- [LinkedIn](https://www.linkedin.com/in/devdas-cybersecurity/)
 - [GitHub](https://github.com/Devdas-gupta)
 - [Twitter](https://twitter.com/DevdasGupta10)
 
